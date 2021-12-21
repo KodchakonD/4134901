@@ -8,12 +8,15 @@ import UI from "./components/UI";
 
 import DataTable from "./components/Table";
 
+import Hook from "./components/Hook";
+
 ReactDom.render(
   <>
     <Car age="25" eye="black" />
     <List />
     <UI />
     <DataTable />
+    <Hook/>
   </>,
 document.getElementById("root")
 );
